@@ -1,0 +1,6 @@
+name: Codelar E-Shop
+type: theme
+description: "Theme built for electronic store."
+core_version_requirement: ^8 || ^9
+base theme: classy
+package: Other
