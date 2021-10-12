@@ -4,3 +4,6 @@ description: "Theme built for electronic store."
 core_version_requirement: ^8 || ^9
 base theme: classy
 package: Other
+libraries:
+  - codelar_e_shop/global-styling
+  - codelar_e_shop/global-scripts
