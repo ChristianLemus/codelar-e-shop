@@ -2,10 +2,12 @@
 global-styling:
   css:
     theme:
+      css/tailwind.css: {}
       css/main.css: {}
 # global script
 global-scripts:
   js:
     js/main.js: {}
   dependencies:
+    - core/drupal
     - core/jquery
