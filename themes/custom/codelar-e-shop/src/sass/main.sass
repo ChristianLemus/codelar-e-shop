@@ -1,3 +1,20 @@
 /* main global style */
 @import 'base/variables.sass'
 
+.logotype
+  @apply ml-2 text-2xl font-bold
+
+.nav-container 
+  @apply text-center space-y-3 text-gray-400 dark:text-white text-lg lg:flex items-center lg:divide-x-3 lg:divide-primary lg:space-y-0
+
+.nav-items
+  @apply px-12 hover:text-primary cursor-pointer
+
+.is-active 
+  @apply dark:text-primary dark:hover:text-primary font-bold  text-black hover:text-primary dark:text-white
+
+.toggle-menu
+  @apply flex bg-primary h-8 w-8 items-center justify-center rounded-sm
+
+.button-icon
+  @apply rounded-md items-center justify-center px-4 py-3 bg-primary hover:bg-gray-400 px-4 py-2 transition duration-700 ease-in-out mt-6 lg:mt-0

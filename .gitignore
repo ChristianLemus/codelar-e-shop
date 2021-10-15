@@ -35,7 +35,7 @@ sites/simpletest
 # dependencies.
 themes/custom/codelar-e-shop/node_modules
 # Ignore package-lock.json that is automatically created when adding
-# dependencies by users of NPMv5.
+# dependencies by users of NPM
 themes/custom/codelar-e-shop/package-lock.json
 
 # If you prefer to store your .gitignore file in the sites/ folder, comment

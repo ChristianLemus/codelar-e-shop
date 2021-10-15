@@ -9,6 +9,7 @@ libraries:
 base theme: classy
 regions:
   header: "Header"
+  primary_menu: "Primary Menu"
   content: "Content"
   footer: "Footer"
 ckeditor_stylesheets:

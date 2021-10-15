@@ -4,7 +4,9 @@
   "description": "Drupal custom theme codelar-e-shop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "gulp styles",
+    "watch-theme": "gulp watch"
   },
   "author": "Christian Lemus",
   "license": "ISC",

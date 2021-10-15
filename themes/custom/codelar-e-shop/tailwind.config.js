@@ -1,18 +1,26 @@
 module.exports = {
-  prefix: "tw-",
   important: false,
   darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
+      borderWidth: {
+        DEFAULT: '1px',
+        '0': '0',
+        '2': '2px',
+        '3': '3px',
+        '4': '4px',
+        '6': '6px',
+        '8': '8px',
+      },
       colors: {
-        primary: "#f1b106",
+        primary: "#B87DFF",
+        bg_dark: "#17202A",
         gray: {
           100: "#302F3F",
           300: "#464650",
           400: "#0D0D0D",
           600: "#FDFDFD",
         },
-        black: "#000",
       },
       fontFamily: {
         sans: ['"Nunito Sans"', "sans-serif"],
