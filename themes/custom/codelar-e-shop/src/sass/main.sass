@@ -1,6 +1,6 @@
 /* main global style */
 @import 'base/variables.sass'
-
+// header styles
 .logotype
   @apply ml-2 text-2xl font-bold
 
@@ -8,7 +8,7 @@
   @apply text-center space-y-3 text-gray-400 dark:text-white text-lg lg:flex items-center lg:divide-x-3 lg:divide-primary lg:space-y-0
 
 .nav-items
-  @apply px-12 hover:text-primary cursor-pointer
+  @apply px-12 hover:text-primary cursor-pointer pointer-events-auto
 
 .is-active 
   @apply dark:text-primary dark:hover:text-primary font-bold  text-black hover:text-primary dark:text-white
@@ -18,3 +18,45 @@
 
 .button-icon
   @apply rounded-md items-center justify-center px-4 py-3 bg-primary hover:bg-gray-400 px-4 py-2 transition duration-700 ease-in-out mt-6 lg:mt-0
+// landing styles
+.container-section-title
+  @apply container mx-auto px-6 flex flex-col justify-between items-center relative py-8 mt-6
+
+.underline-decoration
+  @apply text-gray-400 border-b-2 border-gray-400 dark:text-white
+
+.card-mosaic
+  @apply shadow-lg rounded-2xl w-96 md:w-64 p-10 bg-white relative overflow-hidden dark:bg-bg_dark
+
+.title-section
+  @apply uppercase w-full text-center text-4xl sm:text-5xl dark:text-white text-gray-400
+
+.container-about-section
+  @apply max-w-screen-xl p-4  dark:bg-bg_dark mx-auto px-4 sm:px-6 lg:px-8 relative
+
+.feature-container
+  @apply flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full bg-primary text-white
+
+.content-feature
+  @apply ml-4 text-base leading-6 font-medium text-gray-400 dark:text-white
+
+// products
+.grid-container-products
+  @apply flex flex-col items-center sm:space-y-4 lg:grid lg:grid-cols-3 lg:space-y-0 lg:justify-items-center
+
+.container-cart-btn
+  @apply flex flex-col md:flex-row justify-between items-center text-gray-400 dark:text-white
+
+.cart-btn
+  @apply px-6 py-2 transition ease-in duration-200 uppercase rounded-md hover:bg-primary hover:text-white border-2 border-primary focus:outline-none
+
+// Scrollbar Styling 
+::-webkit-scrollbar 
+  @apply w-2
+
+::-webkit-scrollbar-track 
+  @apply bg-white rounded-lg
+
+::-webkit-scrollbar-thumb 
+  @apply bg-primary rounded-lg
+
